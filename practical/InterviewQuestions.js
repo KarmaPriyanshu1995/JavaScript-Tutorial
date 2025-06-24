@@ -196,3 +196,22 @@
 
 //  const filteredData = matrixView.filter(canSeeMatrix)
 //  console.log(filteredData)
+
+
+// const a =[1,2,3,3,2,1,1,2]
+// let obj={}
+// let maxKey = null;
+// let maxCount = 0;
+//  for(let i=0;i<=a.length-1;i++){
+//    obj[a[i]] = (obj[a[i]] || 0) + 1;
+//    if (obj[a[i]] > maxCount) {
+//         maxCount = obj[a[i]];
+//         maxKey = a[i];
+//     }
+//  }
+
+// for(const num of a){
+//     obj[num] =obj[num]? obj[num]+1:1
+   
+// }
+// console.log({ [maxKey]: maxCount });
