@@ -52,3 +52,60 @@
 // 53. What is this in javascript and How it behaves in various scenarios
 // 54. How do you optimize the performance of application
 // 55. What is meant by debouncing and throttling
+
+
+
+//What Is Server Side and Client Side ?
+
+//Client Side
+//A client is a device ,application or Software Component 
+// that requests and consumes services or resource from a server.
+
+//Server Side
+//A server is a device , computer ,
+// or Software application that provides services, resources, or Functions to clients.
+
+
+//what is the Scope In JavaScript?
+
+// Scope Determines Where Variables Are Defined And Where they can be accessed.
+// let globalVariable = "global";
+//greet();
+//function greet(){
+//Function Scope :- Accessbile Inside Function Only
+// let functionVariable="function";
+// if(true){
+//     //Block Scope :- accessible inside block Only
+//     let blockVariables ="block";
+//     console.log(blockVariables)//Output :Block
+//     console.log(functionVariable)//Function
+//     console.log(globalVariable)//global
+// }
+//  console.log(functionVariable)//Function
+//     console.log(globalVariable)//global
+// //}
+// console.log(globalVariable)//global
+
+
+//What is Hoisting In Javascript ?
+//Hoisting Is A Javascript behavior where function and Variable 
+// declaration are moved to the top of their respective scopes during the compilation Phase.
+
+
+//What Is JSON
+//JSON(JavaScript Object Notation) is a light weight data InterChange Format.
+//JSON consist of Key:value Pairs.
+
+
+//What is Difference Between A Primitive and Non-Primitive DataType ?
+//Primitive DataType 
+//Primitive DataType Can Hold Only Single Value.
+//Primitive DataType are Immutable ,meaning their value once assigned cannot changed.
+
+//Non-Primitive Datatype
+//Can Hold Multiple VAlues
+//they are mutable.
+
+
+//What is the Difference Between Rest and Spread Operator in JS?
+//Spread Operator : The Spread Operator Is  Used to expand or
