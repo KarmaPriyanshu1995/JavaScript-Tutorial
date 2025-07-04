@@ -40,8 +40,40 @@
 
 // 5. Find the max count of consecutive 1’s in an array ?
 // 6. Find the factorial of given number ?
+// function factorial(num){
+// if(num === 0){
+//     return 1;
+// }else{
+//     return num * factorial(num-1)
+// }
+
+// }
+// console.log(factorial(5))
+
 // 7. Given 2 arrays that are sorted [0,3,4,31] and [4,6,30]. Merge them and sort [0,3,4,4,6,30,31] ?
-// 8. Create a function which will accepts two arrays arr1 and arr2. The function should return true if every value in arr1 has its corresponding value squared in array2. The frequency of values must be same.
+// let arr1=[0,3,4,31]
+// let arr2=[4,6,30]
+
+// const arr3 = [...arr1,...arr2]
+// for(let i=0;i<=arr3.length;i++){
+//    for(let j=i+1;j<=arr3.length;j++){
+//     if(arr3[i]>arr3[j]){
+//     let temp = arr3[j]
+//     arr3[j]=arr3[i]
+//     arr3[i]=temp
+//    }
+// } 
+// }
+// console.log(arr3)
+// 8. Create a function which will accepts two arrays arr1 and arr2.
+//  The function should return true if every value in arr1 
+// has its corresponding value squared in array2. The frequency of values must be same.
+// function solution(arr1,arr2){
+ 
+
+// }
+// console.log(solution([1,2,3],[1,4,9]))
+
 // 9. Given two strings. Find if one string can be formed by rearranging the letters of other string.
 // 10. Write logic to get unique objects from below array ?
 // I/P: [{name: "sai"},{name:"Nang"},{name: "sai"},{name:"Nang"},{name: "111111"}];
@@ -198,8 +230,8 @@
 //  console.log(filteredData)
 
 
-// const a =[1,2,3,3,2,1,1,2]
-// let obj={}
+const a =[1,2,3,3,2,1,1,2]
+let obj={}
 // let maxKey = null;
 // let maxCount = 0;
 //  for(let i=0;i<=a.length-1;i++){
@@ -215,3 +247,9 @@
    
 // }
 // console.log({ [maxKey]: maxCount });
+
+// for(let nums of a){
+//    obj[a[nums]]= (obj[a[nums]] || 0)+1
+// }
+
+// console.log(obj)
